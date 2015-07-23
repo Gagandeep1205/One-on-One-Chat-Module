@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA144F1574C43310D625BCFE /* libPods-chatModule.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FC6EB7724F47F7707D29235 /* libPods-chatModule.a */; };
 		CEC23F691B5FA0180080E31D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC23F681B5FA0180080E31D /* main.m */; };
 		CEC23F6C1B5FA0180080E31D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC23F6B1B5FA0180080E31D /* AppDelegate.m */; };
 		CEC23F6F1B5FA0180080E31D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC23F6E1B5FA0180080E31D /* ViewController.m */; };
@@ -14,6 +15,15 @@
 		CEC23F741B5FA0180080E31D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEC23F731B5FA0180080E31D /* Images.xcassets */; };
 		CEC23F771B5FA0180080E31D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEC23F751B5FA0180080E31D /* LaunchScreen.xib */; };
 		CEC23F831B5FA0180080E31D /* chatModuleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC23F821B5FA0180080E31D /* chatModuleTests.m */; };
+		CEC23F921B5FA1CC0080E31D /* DataModal.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC23F911B5FA1CC0080E31D /* DataModal.m */; };
+		CEC23F951B5FA1DE0080E31D /* iOSRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC23F941B5FA1DE0080E31D /* iOSRequest.m */; };
+		CEC23F991B5FA2570080E31D /* UsersTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC23F981B5FA2570080E31D /* UsersTableViewCell.m */; };
+		CEC23F9D1B5FA2760080E31D /* ChatTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC23F9C1B5FA2760080E31D /* ChatTableViewCell.m */; };
+		CEC23FA41B5FA6740080E31D /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CEC23F9F1B5FA6740080E31D /* 2.jpg */; };
+		CEC23FA51B5FA6740080E31D /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CEC23FA01B5FA6740080E31D /* 3.jpg */; };
+		CEC23FA61B5FA6740080E31D /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CEC23FA11B5FA6740080E31D /* 4.jpg */; };
+		CEC23FA71B5FA6740080E31D /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CEC23FA21B5FA6740080E31D /* 5.jpg */; };
+		CEC23FAA1B5FAC840080E31D /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC23FA91B5FAC840080E31D /* ChatViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +37,36 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		21D561A329E8E2ECF387DFA5 /* Pods-chatModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chatModule.release.xcconfig"; path = "Pods/Target Support Files/Pods-chatModule/Pods-chatModule.release.xcconfig"; sourceTree = "<group>"; };
+		7D3A92E41CD6808AA3A4F1A5 /* Pods-chatModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chatModule.debug.xcconfig"; path = "Pods/Target Support Files/Pods-chatModule/Pods-chatModule.debug.xcconfig"; sourceTree = "<group>"; };
+		9FC6EB7724F47F7707D29235 /* libPods-chatModule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-chatModule.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEC23F631B5FA0180080E31D /* chatModule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chatModule.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEC23F671B5FA0180080E31D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEC23F681B5FA0180080E31D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CEC23F6A1B5FA0180080E31D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		CEC23F6B1B5FA0180080E31D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CEC23F6D1B5FA0180080E31D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CEC23F6E1B5FA0180080E31D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CEC23F6A1B5FA0180080E31D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = chatModule/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		CEC23F6B1B5FA0180080E31D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = chatModule/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		CEC23F6D1B5FA0180080E31D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = chatModule/ViewController.h; sourceTree = SOURCE_ROOT; };
+		CEC23F6E1B5FA0180080E31D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = chatModule/ViewController.m; sourceTree = SOURCE_ROOT; };
 		CEC23F711B5FA0180080E31D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CEC23F731B5FA0180080E31D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CEC23F761B5FA0180080E31D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		CEC23F7C1B5FA0180080E31D /* chatModuleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = chatModuleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEC23F811B5FA0180080E31D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEC23F821B5FA0180080E31D /* chatModuleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = chatModuleTests.m; sourceTree = "<group>"; };
+		CEC23F901B5FA1CC0080E31D /* DataModal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataModal.h; sourceTree = "<group>"; };
+		CEC23F911B5FA1CC0080E31D /* DataModal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataModal.m; sourceTree = "<group>"; };
+		CEC23F931B5FA1DE0080E31D /* iOSRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iOSRequest.h; sourceTree = "<group>"; };
+		CEC23F941B5FA1DE0080E31D /* iOSRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iOSRequest.m; sourceTree = "<group>"; };
+		CEC23F971B5FA2570080E31D /* UsersTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UsersTableViewCell.h; sourceTree = "<group>"; };
+		CEC23F981B5FA2570080E31D /* UsersTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UsersTableViewCell.m; sourceTree = "<group>"; };
+		CEC23F9B1B5FA2760080E31D /* ChatTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatTableViewCell.h; sourceTree = "<group>"; };
+		CEC23F9C1B5FA2760080E31D /* ChatTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatTableViewCell.m; sourceTree = "<group>"; };
+		CEC23F9F1B5FA6740080E31D /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		CEC23FA01B5FA6740080E31D /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		CEC23FA11B5FA6740080E31D /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		CEC23FA21B5FA6740080E31D /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		CEC23FA81B5FAC840080E31D /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChatViewController.h; path = chatModule/ChatViewController.h; sourceTree = SOURCE_ROOT; };
+		CEC23FA91B5FAC840080E31D /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChatViewController.m; path = chatModule/ChatViewController.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA144F1574C43310D625BCFE /* libPods-chatModule.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +88,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		815A078C8DD563D34E38E2B7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7D3A92E41CD6808AA3A4F1A5 /* Pods-chatModule.debug.xcconfig */,
+				21D561A329E8E2ECF387DFA5 /* Pods-chatModule.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C87B9C91425A8CD0A4AC7B11 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9FC6EB7724F47F7707D29235 /* libPods-chatModule.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CEC23F5A1B5FA0180080E31D = {
 			isa = PBXGroup;
 			children = (
 				CEC23F651B5FA0180080E31D /* chatModule */,
 				CEC23F7F1B5FA0180080E31D /* chatModuleTests */,
 				CEC23F641B5FA0180080E31D /* Products */,
+				815A078C8DD563D34E38E2B7 /* Pods */,
+				C87B9C91425A8CD0A4AC7B11 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,12 +128,19 @@
 		CEC23F651B5FA0180080E31D /* chatModule */ = {
 			isa = PBXGroup;
 			children = (
-				CEC23F6A1B5FA0180080E31D /* AppDelegate.h */,
-				CEC23F6B1B5FA0180080E31D /* AppDelegate.m */,
-				CEC23F6D1B5FA0180080E31D /* ViewController.h */,
-				CEC23F6E1B5FA0180080E31D /* ViewController.m */,
+				CEC23FAB1B5FAC950080E31D /* ChatViewController */,
+				CEC23F9A1B5FA26A0080E31D /* ChatTable */,
+				CEC23F961B5FA23E0080E31D /* UsersTable */,
+				CEC23F8C1B5FA1790080E31D /* AppDelegate */,
+				CEC23F8F1B5FA1A90080E31D /* DataModal */,
+				CEC23F8E1B5FA1990080E31D /* iOSRequest */,
+				CEC23F8D1B5FA1880080E31D /* ViewController */,
 				CEC23F701B5FA0180080E31D /* Main.storyboard */,
 				CEC23F731B5FA0180080E31D /* Images.xcassets */,
+				CEC23F9F1B5FA6740080E31D /* 2.jpg */,
+				CEC23FA01B5FA6740080E31D /* 3.jpg */,
+				CEC23FA11B5FA6740080E31D /* 4.jpg */,
+				CEC23FA21B5FA6740080E31D /* 5.jpg */,
 				CEC23F751B5FA0180080E31D /* LaunchScreen.xib */,
 				CEC23F661B5FA0180080E31D /* Supporting Files */,
 			);
@@ -119,6 +173,69 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		CEC23F8C1B5FA1790080E31D /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				CEC23F6A1B5FA0180080E31D /* AppDelegate.h */,
+				CEC23F6B1B5FA0180080E31D /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		CEC23F8D1B5FA1880080E31D /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CEC23F6D1B5FA0180080E31D /* ViewController.h */,
+				CEC23F6E1B5FA0180080E31D /* ViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		CEC23F8E1B5FA1990080E31D /* iOSRequest */ = {
+			isa = PBXGroup;
+			children = (
+				CEC23F931B5FA1DE0080E31D /* iOSRequest.h */,
+				CEC23F941B5FA1DE0080E31D /* iOSRequest.m */,
+			);
+			path = iOSRequest;
+			sourceTree = "<group>";
+		};
+		CEC23F8F1B5FA1A90080E31D /* DataModal */ = {
+			isa = PBXGroup;
+			children = (
+				CEC23F901B5FA1CC0080E31D /* DataModal.h */,
+				CEC23F911B5FA1CC0080E31D /* DataModal.m */,
+			);
+			path = DataModal;
+			sourceTree = "<group>";
+		};
+		CEC23F961B5FA23E0080E31D /* UsersTable */ = {
+			isa = PBXGroup;
+			children = (
+				CEC23F971B5FA2570080E31D /* UsersTableViewCell.h */,
+				CEC23F981B5FA2570080E31D /* UsersTableViewCell.m */,
+			);
+			path = UsersTable;
+			sourceTree = "<group>";
+		};
+		CEC23F9A1B5FA26A0080E31D /* ChatTable */ = {
+			isa = PBXGroup;
+			children = (
+				CEC23F9B1B5FA2760080E31D /* ChatTableViewCell.h */,
+				CEC23F9C1B5FA2760080E31D /* ChatTableViewCell.m */,
+			);
+			path = ChatTable;
+			sourceTree = "<group>";
+		};
+		CEC23FAB1B5FAC950080E31D /* ChatViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CEC23FA81B5FAC840080E31D /* ChatViewController.h */,
+				CEC23FA91B5FAC840080E31D /* ChatViewController.m */,
+			);
+			path = ChatViewController;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +243,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CEC23F861B5FA0180080E31D /* Build configuration list for PBXNativeTarget "chatModule" */;
 			buildPhases = (
+				918231E16CE556F16AC7C700 /* Check Pods Manifest.lock */,
 				CEC23F5F1B5FA0180080E31D /* Sources */,
 				CEC23F601B5FA0180080E31D /* Frameworks */,
 				CEC23F611B5FA0180080E31D /* Resources */,
+				31ED9E9FC0CE136918EB5075 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -199,9 +318,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEC23FA51B5FA6740080E31D /* 3.jpg in Resources */,
 				CEC23F721B5FA0180080E31D /* Main.storyboard in Resources */,
 				CEC23F771B5FA0180080E31D /* LaunchScreen.xib in Resources */,
 				CEC23F741B5FA0180080E31D /* Images.xcassets in Resources */,
+				CEC23FA71B5FA6740080E31D /* 5.jpg in Resources */,
+				CEC23FA61B5FA6740080E31D /* 4.jpg in Resources */,
+				CEC23FA41B5FA6740080E31D /* 2.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,13 +337,51 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		31ED9E9FC0CE136918EB5075 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-chatModule/Pods-chatModule-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		918231E16CE556F16AC7C700 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CEC23F5F1B5FA0180080E31D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEC23F951B5FA1DE0080E31D /* iOSRequest.m in Sources */,
 				CEC23F6F1B5FA0180080E31D /* ViewController.m in Sources */,
+				CEC23F991B5FA2570080E31D /* UsersTableViewCell.m in Sources */,
+				CEC23F9D1B5FA2760080E31D /* ChatTableViewCell.m in Sources */,
+				CEC23F921B5FA1CC0080E31D /* DataModal.m in Sources */,
 				CEC23F6C1B5FA0180080E31D /* AppDelegate.m in Sources */,
+				CEC23FAA1B5FAC840080E31D /* ChatViewController.m in Sources */,
 				CEC23F691B5FA0180080E31D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -347,6 +508,7 @@
 		};
 		CEC23F871B5FA0180080E31D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D3A92E41CD6808AA3A4F1A5 /* Pods-chatModule.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = chatModule/Info.plist;
@@ -357,6 +519,7 @@
 		};
 		CEC23F881B5FA0180080E31D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21D561A329E8E2ECF387DFA5 /* Pods-chatModule.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = chatModule/Info.plist;
@@ -418,6 +581,7 @@
 				CEC23F881B5FA0180080E31D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CEC23F891B5FA0180080E31D /* Build configuration list for PBXNativeTarget "chatModuleTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +590,7 @@
 				CEC23F8B1B5FA0180080E31D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
