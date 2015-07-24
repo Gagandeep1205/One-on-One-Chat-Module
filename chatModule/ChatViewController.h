@@ -9,10 +9,14 @@
 #import <UIKit/UIKit.h>
 #import "ViewController.h"
 #import "DataModal.h"
-#import "ChatTableViewCell.h"
+#import "SendTextCell.h"
+#import "SendImageCell.h"
+#import "RecieveImageCell.h"
+#import "RecieveTextCell.h"
 #import <SDWebImage/UIImageView+WebCache.h>
 
-@interface ChatViewController : UIViewController <UITableViewDelegate , UITableViewDataSource, UITextFieldDelegate, UIImagePickerControllerDelegate>
+
+@interface ChatViewController : UIViewController <UITableViewDelegate , UITableViewDataSource, UITextFieldDelegate, UIImagePickerControllerDelegate, UIAlertViewDelegate >
 
 -(void) getChatHistory:(NSMutableArray*)dict;
 
@@ -26,7 +30,7 @@
 @property (weak, nonatomic) IBOutlet UITextField *TFMessage;
 @property NSDate * currentDate;
 @property NSString * message;
-@property (strong,nonatomic) NSString *stringForHeight;
+@property (strong,nonatomic) NSString *strForHeight;
 
 - (IBAction)btnImagePicker:(id)sender;
 - (IBAction)actionBtnSendMessage:(id)sender;

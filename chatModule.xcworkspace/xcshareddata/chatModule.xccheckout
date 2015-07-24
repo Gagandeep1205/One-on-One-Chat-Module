@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F9641340-15A2-4ABE-9CE4-9D1200B51971</string>
+	<key>IDESourceControlProjectName</key>
+	<string>chatModule</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B3C29B89D5405A4FF57253F59D0870A1870369A8</key>
+		<string>https://github.com/Gagandeep1205/One-on-One-Chat-Module.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>chatModule.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B3C29B89D5405A4FF57253F59D0870A1870369A8</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Gagandeep1205/One-on-One-Chat-Module.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B3C29B89D5405A4FF57253F59D0870A1870369A8</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B3C29B89D5405A4FF57253F59D0870A1870369A8</string>
+			<key>IDESourceControlWCCName</key>
+			<string>chatModule</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 #import "UsersTableViewCell.h"
-#import "ChatTableViewCell.h"
 #import "DataModal.h"
 
 @interface ViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>

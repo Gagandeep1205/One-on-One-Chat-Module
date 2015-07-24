@@ -1,17 +1,18 @@
 //
-//  ChatTableViewCell.m
+//  SendTextCell.m
 //  chatModule
 //
-//  Created by Gagandeep Kaur on 22/07/15.
+//  Created by Gagandeep Kaur on 24/07/15.
 //  Copyright (c) 2015 Gagandeep Kaur. All rights reserved.
 //
 
-#import "ChatTableViewCell.h"
+#import "SendTextCell.h"
 
-@implementation ChatTableViewCell
+@implementation SendTextCell
 
 - (void)awakeFromNib {
     // Initialization code
+    _labelSendText.layer.cornerRadius = 8;
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {

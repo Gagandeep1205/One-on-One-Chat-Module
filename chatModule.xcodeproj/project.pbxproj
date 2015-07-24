@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		AA144F1574C43310D625BCFE /* libPods-chatModule.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FC6EB7724F47F7707D29235 /* libPods-chatModule.a */; };
+		CEA0DD761B62063000CC2628 /* SendImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA0DD751B62063000CC2628 /* SendImageCell.m */; };
+		CEA0DD791B62064900CC2628 /* SendTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA0DD781B62064900CC2628 /* SendTextCell.m */; };
+		CEA0DD7C1B62065F00CC2628 /* RecieveImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA0DD7B1B62065F00CC2628 /* RecieveImageCell.m */; };
+		CEA0DD801B6206EB00CC2628 /* RecieveTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA0DD7F1B6206EB00CC2628 /* RecieveTextCell.m */; };
 		CEC23F691B5FA0180080E31D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC23F681B5FA0180080E31D /* main.m */; };
 		CEC23F6C1B5FA0180080E31D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC23F6B1B5FA0180080E31D /* AppDelegate.m */; };
 		CEC23F6F1B5FA0180080E31D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC23F6E1B5FA0180080E31D /* ViewController.m */; };
@@ -18,7 +22,6 @@
 		CEC23F921B5FA1CC0080E31D /* DataModal.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC23F911B5FA1CC0080E31D /* DataModal.m */; };
 		CEC23F951B5FA1DE0080E31D /* iOSRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC23F941B5FA1DE0080E31D /* iOSRequest.m */; };
 		CEC23F991B5FA2570080E31D /* UsersTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC23F981B5FA2570080E31D /* UsersTableViewCell.m */; };
-		CEC23F9D1B5FA2760080E31D /* ChatTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC23F9C1B5FA2760080E31D /* ChatTableViewCell.m */; };
 		CEC23FA41B5FA6740080E31D /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CEC23F9F1B5FA6740080E31D /* 2.jpg */; };
 		CEC23FA51B5FA6740080E31D /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CEC23FA01B5FA6740080E31D /* 3.jpg */; };
 		CEC23FA61B5FA6740080E31D /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CEC23FA11B5FA6740080E31D /* 4.jpg */; };
@@ -40,6 +43,14 @@
 		21D561A329E8E2ECF387DFA5 /* Pods-chatModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chatModule.release.xcconfig"; path = "Pods/Target Support Files/Pods-chatModule/Pods-chatModule.release.xcconfig"; sourceTree = "<group>"; };
 		7D3A92E41CD6808AA3A4F1A5 /* Pods-chatModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chatModule.debug.xcconfig"; path = "Pods/Target Support Files/Pods-chatModule/Pods-chatModule.debug.xcconfig"; sourceTree = "<group>"; };
 		9FC6EB7724F47F7707D29235 /* libPods-chatModule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-chatModule.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA0DD741B62063000CC2628 /* SendImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SendImageCell.h; sourceTree = "<group>"; };
+		CEA0DD751B62063000CC2628 /* SendImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SendImageCell.m; sourceTree = "<group>"; };
+		CEA0DD771B62064900CC2628 /* SendTextCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SendTextCell.h; sourceTree = "<group>"; };
+		CEA0DD781B62064900CC2628 /* SendTextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SendTextCell.m; sourceTree = "<group>"; };
+		CEA0DD7A1B62065F00CC2628 /* RecieveImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecieveImageCell.h; sourceTree = "<group>"; };
+		CEA0DD7B1B62065F00CC2628 /* RecieveImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecieveImageCell.m; sourceTree = "<group>"; };
+		CEA0DD7E1B6206EB00CC2628 /* RecieveTextCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecieveTextCell.h; sourceTree = "<group>"; };
+		CEA0DD7F1B6206EB00CC2628 /* RecieveTextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecieveTextCell.m; sourceTree = "<group>"; };
 		CEC23F631B5FA0180080E31D /* chatModule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chatModule.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEC23F671B5FA0180080E31D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEC23F681B5FA0180080E31D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -59,8 +70,6 @@
 		CEC23F941B5FA1DE0080E31D /* iOSRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iOSRequest.m; sourceTree = "<group>"; };
 		CEC23F971B5FA2570080E31D /* UsersTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UsersTableViewCell.h; sourceTree = "<group>"; };
 		CEC23F981B5FA2570080E31D /* UsersTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UsersTableViewCell.m; sourceTree = "<group>"; };
-		CEC23F9B1B5FA2760080E31D /* ChatTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatTableViewCell.h; sourceTree = "<group>"; };
-		CEC23F9C1B5FA2760080E31D /* ChatTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatTableViewCell.m; sourceTree = "<group>"; };
 		CEC23F9F1B5FA6740080E31D /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
 		CEC23FA01B5FA6740080E31D /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
 		CEC23FA11B5FA6740080E31D /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
@@ -105,6 +114,43 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		CEA0DD701B62059400CC2628 /* RecieveImageCell */ = {
+			isa = PBXGroup;
+			children = (
+				CEA0DD7A1B62065F00CC2628 /* RecieveImageCell.h */,
+				CEA0DD7B1B62065F00CC2628 /* RecieveImageCell.m */,
+			);
+			path = RecieveImageCell;
+			sourceTree = "<group>";
+		};
+		CEA0DD721B6205A700CC2628 /* SendTextCell */ = {
+			isa = PBXGroup;
+			children = (
+				CEA0DD771B62064900CC2628 /* SendTextCell.h */,
+				CEA0DD781B62064900CC2628 /* SendTextCell.m */,
+			);
+			path = SendTextCell;
+			sourceTree = "<group>";
+		};
+		CEA0DD731B6205B700CC2628 /* SendImageCell */ = {
+			isa = PBXGroup;
+			children = (
+				CEA0DD741B62063000CC2628 /* SendImageCell.h */,
+				CEA0DD751B62063000CC2628 /* SendImageCell.m */,
+			);
+			name = SendImageCell;
+			path = SendImage;
+			sourceTree = "<group>";
+		};
+		CEA0DD7D1B6206D300CC2628 /* RecieveTextCell */ = {
+			isa = PBXGroup;
+			children = (
+				CEA0DD7E1B6206EB00CC2628 /* RecieveTextCell.h */,
+				CEA0DD7F1B6206EB00CC2628 /* RecieveTextCell.m */,
+			);
+			path = RecieveTextCell;
+			sourceTree = "<group>";
+		};
 		CEC23F5A1B5FA0180080E31D = {
 			isa = PBXGroup;
 			children = (
@@ -128,8 +174,11 @@
 		CEC23F651B5FA0180080E31D /* chatModule */ = {
 			isa = PBXGroup;
 			children = (
-				CEC23FAB1B5FAC950080E31D /* ChatViewController */,
-				CEC23F9A1B5FA26A0080E31D /* ChatTable */,
+				CEA0DD7D1B6206D300CC2628 /* RecieveTextCell */,
+				CEA0DD731B6205B700CC2628 /* SendImageCell */,
+				CEA0DD721B6205A700CC2628 /* SendTextCell */,
+				CEA0DD701B62059400CC2628 /* RecieveImageCell */,
+				CEC23FAB1B5FAC950080E31D /* ChatTableViewController */,
 				CEC23F961B5FA23E0080E31D /* UsersTable */,
 				CEC23F8C1B5FA1790080E31D /* AppDelegate */,
 				CEC23F8F1B5FA1A90080E31D /* DataModal */,
@@ -218,21 +267,13 @@
 			path = UsersTable;
 			sourceTree = "<group>";
 		};
-		CEC23F9A1B5FA26A0080E31D /* ChatTable */ = {
-			isa = PBXGroup;
-			children = (
-				CEC23F9B1B5FA2760080E31D /* ChatTableViewCell.h */,
-				CEC23F9C1B5FA2760080E31D /* ChatTableViewCell.m */,
-			);
-			path = ChatTable;
-			sourceTree = "<group>";
-		};
-		CEC23FAB1B5FAC950080E31D /* ChatViewController */ = {
+		CEC23FAB1B5FAC950080E31D /* ChatTableViewController */ = {
 			isa = PBXGroup;
 			children = (
 				CEC23FA81B5FAC840080E31D /* ChatViewController.h */,
 				CEC23FA91B5FAC840080E31D /* ChatViewController.m */,
 			);
+			name = ChatTableViewController;
 			path = ChatViewController;
 			sourceTree = "<group>";
 		};
@@ -375,12 +416,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEA0DD801B6206EB00CC2628 /* RecieveTextCell.m in Sources */,
+				CEA0DD791B62064900CC2628 /* SendTextCell.m in Sources */,
 				CEC23F951B5FA1DE0080E31D /* iOSRequest.m in Sources */,
 				CEC23F6F1B5FA0180080E31D /* ViewController.m in Sources */,
 				CEC23F991B5FA2570080E31D /* UsersTableViewCell.m in Sources */,
-				CEC23F9D1B5FA2760080E31D /* ChatTableViewCell.m in Sources */,
 				CEC23F921B5FA1CC0080E31D /* DataModal.m in Sources */,
+				CEA0DD761B62063000CC2628 /* SendImageCell.m in Sources */,
 				CEC23F6C1B5FA0180080E31D /* AppDelegate.m in Sources */,
+				CEA0DD7C1B62065F00CC2628 /* RecieveImageCell.m in Sources */,
 				CEC23FAA1B5FAC840080E31D /* ChatViewController.m in Sources */,
 				CEC23F691B5FA0180080E31D /* main.m in Sources */,
 			);
